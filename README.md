@@ -1,6 +1,6 @@
-# Statamic Address Field
+# Statamic Autocomplete Address Field
 
-The Statamic Address Field is a powerful addon for Statamic CMS that integrates a straightforward yet highly effective address input field featuring Google Maps Autocomplete. This tool simplifies the process of entering and storing comprehensive address data directly within your CMS.
+The Statamic Autocomplete Address Field is a powerful addon for Statamic CMS that integrates a straightforward yet highly effective address input field featuring Google Maps Autocomplete. This tool simplifies the process of entering and storing comprehensive address data directly within your CMS.
 
 ## Key Features
 
