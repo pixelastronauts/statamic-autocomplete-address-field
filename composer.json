@@ -1,37 +1,39 @@
 {
-    "name": "pixelastronauts/address-field",
-    "autoload": {
-        "psr-4": {
-            "Pixelastronauts\\AddressField\\": "src"
-        }
+  "name": "pixelastronauts/address-field",
+  "description": "A Statamic Address Field addon with Google Maps Autocomplete",
+  "autoload": {
+    "psr-4": {
+      "Pixelastronauts\\AddressField\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pixelastronauts\\AddressField\\Tests\\": "tests"
+    }
+  },
+  "require": {
+    "statamic/cms": "^5.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^9.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "pixelfear/composer-dist-plugin": true
+    }
+  },
+  "extra": {
+    "statamic": {
+      "name": "Address Field",
+      "description": "Address Field addon"
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Pixelastronauts\\AddressField\\Tests\\": "tests"
-        }
-    },
-    "require": {
-        "statamic/cms": "^5.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^9.0"
-    },
-    "config": {
-        "allow-plugins": {
-            "pixelfear/composer-dist-plugin": true
-        }
-    },
-    "extra": {
-        "statamic": {
-            "name": "Address Field",
-            "description": "Address Field addon"
-        },
-        "laravel": {
-            "providers": [
-                "Pixelastronauts\\AddressField\\ServiceProvider"
-            ]
-        }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "laravel": {
+      "providers": [
+        "Pixelastronauts\\AddressField\\ServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT"
 }

@@ -29,8 +29,8 @@ export default {
   },
   mounted() {
     const countryCodes = this.config.country_code
-      .split(",")
-      .map((code) => code.trim());
+      ? this.config.country_code.split(",").map((code) => code.trim())
+      : [];
 
     const options = {
       componentRestrictions: { country: countryCodes },
