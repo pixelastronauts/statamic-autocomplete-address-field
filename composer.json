@@ -1,5 +1,5 @@
 {
-  "name": "pixelastronauts/address-field",
+  "name": "pixelastronauts/statamic-autocomplete-address-field",
   "description": "A Statamic Address Field addon with Google Maps Autocomplete",
   "autoload": {
     "psr-4": {
