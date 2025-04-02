@@ -33,6 +33,6 @@ class ServiceProvider extends AddonServiceProvider
     {
         $key = config('statamic.address-field.google_places_api_key');
 
-        Statamic::externalScript('https://maps.googleapis.com/maps/api/js?key=' . $key . '&loading=async&libraries=places&callback=initMap');
+        Statamic::externalScript('https://maps.googleapis.com/maps/api/js?key=' . $key . '&libraries=places&v=weekly');
     }
 }
