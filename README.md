@@ -26,7 +26,7 @@ To install the Statamic Address Field, you can either use the Statamic control p
 - **Via Control Panel**: Navigate to `Tools > Addons` in the Statamic control panel, search for "Address Field", and click **Install**.
 - **Via Command Line**:
   ```bash
-  composer require pixelastronauts/address-field
+  composer require pixelastronauts/statamic-autocomplete-address-field
   ```
 
 ## Usage
